@@ -2,7 +2,11 @@
 
 number 2 is completely different from the rest use id: black duck */
 
-#black-duck {
+#blue{
     color: rgb(0, 0, 255);
     font-size: 36px;
+}
+
+.box {
+    color: hsl(0, 79%, 72%);
 }
