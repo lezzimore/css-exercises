@@ -8,6 +8,6 @@ number 2 is completely different from the rest use id: black duck */
 }
 
 .box {
-    color: hsl(0, 79%, 72%);
+    background-color: rgb(255, 127, 127);
     font-family: "Verdana" "Dejavu Sans" "sans-serif";
 }
