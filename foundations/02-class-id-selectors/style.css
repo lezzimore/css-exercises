@@ -7,7 +7,11 @@ number 2 is completely different from the rest use id: black duck */
     font-size: 36px;
 }
 
-.box {
+.red-box {
     background-color: rgb(255, 127, 127);
     font-family: "Verdana" "Dejavu Sans" "sans-serif";
+}
+
+.red-box.bigger{
+    font-size: 24px;
 }
