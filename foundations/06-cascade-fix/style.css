@@ -19,25 +19,28 @@ body {
 .para {
   font-size: 22px;
 }
-/* class selector */
+/*GOOD*/
 #confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
 /* class selector */
+
+/*GOOD*/
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 /* class selector */
-.child {
+div .text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 /* chained type and class selector */
+/*GOOD*/
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
