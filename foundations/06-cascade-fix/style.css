@@ -1,56 +1,41 @@
-/* type selector -> NO ISSUE */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* group selector*/
-para,
+.para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-/* class selector */
+
+
+.para {
+  font-size: 22px;
+}
+
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
-/* class selector */
-.para {
-  font-size: 22px;
-}
-/*GOOD*/
-#confirm-button {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-/* class selector */
 
-/*GOOD*/
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-/* class selector */
-div .text.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-/* chained type and class selector */
-/*GOOD*/
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
-
-/*Task
-
-Remember:
-
-1. specificity
-2. inheritance
-3. last order */
+.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
