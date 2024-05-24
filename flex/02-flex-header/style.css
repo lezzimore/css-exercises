@@ -18,6 +18,8 @@
 ul {
   /* this removes the dots on the list items*/
   display: flex;
+  width: 230px;
+  justify-content: space-between;
   list-style-type: none;
   margin-left: 0;
   padding: 0;
