@@ -2,7 +2,7 @@
   display: flex;
   font-family: monospace;
   background: papayawhip;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -21,14 +21,6 @@ ul {
   list-style-type: none;
   margin-left: 0;
   padding: 0;
-}
-
-.left-links{
-  margin-right: auto;
-}
-
-.right-links{
-  margin-left: auto;
 }
 
 a {
