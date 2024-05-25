@@ -35,6 +35,11 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
+
+.top{
+  display: flex;
+}
+
 .header{
   font-weight: bold;
   font-size: 1.3rem;
