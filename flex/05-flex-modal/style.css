@@ -17,10 +17,12 @@ body {
 
 .modal {
   display: flex;
+  gap: 10px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
 }
 
 .icon {
@@ -32,13 +34,19 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .top{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header{
