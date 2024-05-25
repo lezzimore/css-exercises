@@ -16,6 +16,7 @@ img {
 .container {
   display: flex;
   gap: 52px;
+  margin-top: 32px;
 }
 
 /* do not edit this footer */
