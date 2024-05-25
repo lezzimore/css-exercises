@@ -38,6 +38,7 @@ body {
 
 .top{
   display: flex;
+  justify-content: space-between;
 }
 
 .header{
