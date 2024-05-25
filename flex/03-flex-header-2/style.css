@@ -11,6 +11,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -44,6 +45,10 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+}
+
+.left-side, .right-side, .links {
+  display: flex;
 }
 
 ul {
