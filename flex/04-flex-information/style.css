@@ -15,7 +15,7 @@ img {
 
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   gap: 52px;
   margin-top: 32px;
 }
