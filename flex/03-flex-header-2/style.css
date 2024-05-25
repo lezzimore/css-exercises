@@ -8,8 +8,11 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
+.header, .left-side, .right-side, .links {
   display: flex;
+}
+
+.header {
   justify-content: space-between;
   align-items: center;
   background: white;
@@ -45,10 +48,6 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-}
-
-.left-side, .right-side, .links {
-  display: flex;
 }
 
 ul {
