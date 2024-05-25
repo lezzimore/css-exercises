@@ -12,6 +12,10 @@ body {
   display: flex;
 }
 
+.left-side, .right-side, .links {
+  gap: 8px;
+}
+
 .header {
   justify-content: space-between;
   align-items: center;
