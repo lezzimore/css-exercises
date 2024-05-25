@@ -19,6 +19,12 @@ img {
   margin-top: 32px;
 }
 
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
