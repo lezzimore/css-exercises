@@ -6,12 +6,11 @@ body {
   height: 100vh;
   margin: 0;
   /* padding: 10px; */
-  overflow: hidden;
   font-family: Roboto, sans-serif;
 }
 .header {
   display: flex;
-  flex: 0 1 auto;
+  /* flex: 0 1 auto; */
   justify-content: space-between;
   padding: 10px 10px 0 10px;
 }
@@ -32,11 +31,9 @@ body {
 .content {
   display: flex;
   flex: auto;
-  justify-content: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 10px;
 }
 
 .input {
@@ -45,9 +42,9 @@ body {
 
 .footer {
   display: flex;
-  flex: 0 1 auto;
+  /* flex: 0 1 auto; */
   height: 38px;
-  background-color: rgb(231, 228, 228);
+  background-color: #eeeeee;
   align-items: center;
   padding: 0 10px;
   justify-content: space-between;
@@ -62,6 +59,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 0.5em 0.9em;
 }
 
 input {
